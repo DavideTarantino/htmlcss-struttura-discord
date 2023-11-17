@@ -103,3 +103,28 @@ main section{
     width: 50%;
 }
 
+footer section{
+    width: 100%;
+    height: 500px;
+    border: 1px solid green;
+}
+
+
+footer{
+    background-color: #23272A;
+}
+
+footer section{
+    padding: 2% 5% 0% 5%;
+}
+
+.flex-containerr3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+  .flex-containerr3 div {
+    border: 1px solid red;
+    padding: 8% 4% 8% 4%;
+}
