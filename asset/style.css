@@ -33,6 +33,7 @@ header .flex-container :first-child{
 .flex-container2{
     display: flex;
     justify-content: center;
+    margin-top: 3%;
 }
 
 .flex-container2 :first-child{
@@ -60,11 +61,45 @@ header #links{
     padding: 2% 25% 2% 25%;
 }
 
+main section{
+    width: 100%;
+    height: 450px;
+    border: 1px solid green;
+}
 
+.flex-containerr {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+  }
+  
+.flex-containerr div {
+    border: 1px solid red;
+    padding: 8% 8% 8% 8%;
+}
 
+.gray{
+    background-color: #F6F6F6;
+}
 
+.flex-containerr2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
 
+.flex-containerr2 :first-child {
+    border: 1px solid red;
+    padding: 1% 1% 1% 1%;
+    width: 50%;
+}
 
-
-
+.flex-containerr2 :last-child {
+    margin-top: 3%;
+    border: 1px solid red;
+    padding: 6% 6% 6% 6%;
+    width: 50%;
+}
 
